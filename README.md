@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
@@ -24,3 +25,7 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+=======
+# luju
+Luju Mobile App
+>>>>>>> 81614e4ed760176b0addf92282f5613916eb2b18

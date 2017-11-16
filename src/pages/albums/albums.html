@@ -1,0 +1,47 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Albums</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-list>
+        <ion-searchbar></ion-searchbar>
+        
+        <ion-item (click)="goToAlbum()">
+          <ion-thumbnail item-start>
+            <img src="assets/imgs/bholoja.jpg">
+          </ion-thumbnail>
+          <h3>Bholoja - Swazi Soul</h3>
+          <p>His latest album comprising of 12 tracks which feature legengary collaborations...</p>
+          <ion-badge item-end color="danger">E110.00</ion-badge>
+        </ion-item>
+        <ion-item>
+            <ion-thumbnail item-start>
+              <img src="assets/imgs/jazzp.jpg">
+            </ion-thumbnail>
+            <h3>Jazz P - In My Heart</h3>
+            <p>Carefully mastered melodies from the songbird...</p>
+            <ion-badge item-end color="danger">E80.00</ion-badge>
+          </ion-item>
+          <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/vice.png">
+              </ion-thumbnail>
+              <h3>Vice Squad - War Ready</h3>
+              <p>Mixtape before the actual album just to tease...</p>
+              <ion-badge item-end color="danger">E40.00</ion-badge>
+            </ion-item>
+            <ion-item>
+                <ion-thumbnail item-start>
+                  <img src="assets/imgs/80.png">
+                </ion-thumbnail>
+                <h3>80 Script - The End</h3>
+                <p>Follow up album on his previous story...</p>
+                <ion-badge item-end color="danger">E75.00</ion-badge>
+              </ion-item>
+    </ion-list>
+</ion-content>
